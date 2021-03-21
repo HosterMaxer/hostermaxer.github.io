@@ -34,6 +34,43 @@
       <h1 id="hostermaxer">HosterMaxer</h1>
 
 
+<html>
+  <head>
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet" />
+    <link href="forest/index.css" rel="stylesheet" />
+ 
+    <style>
+      .player {
+        margin: 5em auto;
+        width: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+   
+    <div class="player">
+      <video
+        id="forest-video"
+        class="video-js vjs-theme-forest"
+        controls
+        preload="auto"
+        poster="false"
+        data-setup='{ "fluid": true }'>
+        <source
+          src="SOURCE"
+          type="application/x-mpegurl"
+        />
+      </video>
+    </div>
+
+    
+  
+
+    <script src="https://vjs.zencdn.net/7.6.0/video.js"></script>
+  </body>
+</html>
+
       <footer class="site-footer">
         
         <span class="site-footer-credits">&copy HosterMaxer </span>
